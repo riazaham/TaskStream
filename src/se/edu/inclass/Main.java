@@ -70,6 +70,7 @@ public class Main {
         }
     }
 
+    //Code added to filter task using lambdas
     public static void printDeadlineUsingStreams(ArrayList<Task> tasksData) {
         System.out.println("Printing deadlines using streams");
         tasksData.stream()
